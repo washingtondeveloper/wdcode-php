@@ -1,26 +1,7 @@
 <?php 
 	include_once('contato.class.php');
 	include('banco.php');
-
-	$c1 = new Contato();
-	$c1->nome = "Felipe Silva";
-	$c1->email = "felipesilva@exemplo.com";
-	$c1->telefone="011-3232-6656";	
-
-	$c2 = new Contato();
-	$c2->nome = "Carla Mendes";
-	$c2->email = "carlamendes@exemplo.com";
-	$c2->telefone="011-7845-1256";
-
-	$c3 = new Contato();
-	$c3->nome = "Gustavo Henrique";
-	$c3->email = "gustavo@exemplo.com";
-	$c3->telefone="011-4578-5451";
-
 	$banco = Banco::getInstance();
-	$banco->addContato($c1);
-	$banco->addContato($c2);
-	$banco->addContato($c3);
  ?>
 
 <!DOCTYPE html>
