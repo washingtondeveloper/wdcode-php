@@ -1,7 +1,8 @@
 <?php include('./header.php') ?>
 
-	<div class="container">
-		
+<div class="container">
+	
+	<div class="table-responsive">
 		<table class="table table-bordered table-hover">
 			<tr>
 				<th>Nome</th>
@@ -16,7 +17,8 @@
 			</tr>
 			<?php }?>
 		</table>
-
 	</div>
+
+</div>
 
 <?php include('./footer.php') ?>

@@ -2,9 +2,9 @@
 
 	<div class="container">
 		
-		<div class="jumbotron">
+		<div class="jumbotron text-center">
 			<h1>Agenda de Contatos</h1>
-			<p>Aplicação desenvolvida em PHP 7</p>
+			<p>Desenvolvida em PHP 7</p>
 		</div>
 
 	</div>
