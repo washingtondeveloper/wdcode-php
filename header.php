@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include_once('contato.class.php');
 	include('banco.php');
 	$banco = Banco::getInstance();
@@ -32,6 +32,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="listagem.php">Listagem</a></li>
 					<li><a href="cadastro.php">Cadastro</a></li>
+					<li><a href="sair.php">Sair</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
