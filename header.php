@@ -21,9 +21,7 @@
 	$banco->addContato($c1);
 	$banco->addContato($c2);
 	$banco->addContato($c3);
-
  ?>
-
 
 <!DOCTYPE html>
 <html>
@@ -32,6 +30,7 @@
 	<title>Agenda</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
 
 </head>
 <body>
